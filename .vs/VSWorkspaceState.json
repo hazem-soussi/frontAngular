@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\admin",
+    "\\src\\app\\admin\\add-category",
+    "\\src\\app\\ecommerce",
+    "\\src\\app\\service"
+  ],
+  "SelectedNode": "\\src\\app\\admin\\add-category\\add-category.component.ts",
+  "PreviewInSolutionExplorer": false
+}
