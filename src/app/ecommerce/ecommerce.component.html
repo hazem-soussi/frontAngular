@@ -1,12 +1,12 @@
 <div class="container" [hidden]="orderFinished">
   <div class="row">
     <div class="col-lg-4">
-      <h2 class="title-page"><i class="fab fa-dropbox"></i> Products <i class="fab fa-dropbox"></i></h2>
+      <h2 class="title-page"><i class="fab fa-dropbox"></i> Furniture <i class="fab fa-dropbox"></i></h2>
     </div>
     <div class="col-lg-8">
       <div class="input-group mb-3" style="margin-top: 15px;">
-        <input type="text" class="form-control" placeholder="Search product" name="name" [(ngModel)]="name">
-        <button class="btn btn-danger" type="button" (click)="search()"><i class="fas fa-search"></i></button>
+        <input type="text" class="form-control" placeholder="Search your furniture" name="name" [(ngModel)]="name">
+        <button class="btn btn-danger" type="submit" (click)="search()"><i class="fas fa-search"></i></button>
       </div>
     </div>
   </div>

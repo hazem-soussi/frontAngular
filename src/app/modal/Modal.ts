@@ -21,6 +21,60 @@ export interface Category {
   id: number,
   name: string
 }
+
+export class Proprety {
+  public idProprety : number ; // Clé primaire
+public nom: string;
+public surface : number;
+public type: string;
+public adresse: string;
+public region: string;
+public image: string;
+public prix: number;
+
+}
+
+
+export class Report {
+  public id: any;
+  public description: any;
+  public reason: any;
+  public confirmation: any;
+
+}
+export interface Reglement {
+  idReglemet: any;
+  frais: any;
+  localisation: any;
+
+}
+
+
+export interface Agent {
+  idAgent: any;
+  name: any;
+  last_name: any;
+  imageUrl: any ;
+   mobile: any;
+   email: any;
+}
+
+
+export class Visite {
+  public idViste : number ; // Clé primaire
+public confirmation : boolean;
+public dateVisite: Date ;
+}
+
+export class Aide {
+  public idUser: any;
+  public monatnt: any;
+  public periode: any; 
+  public type_aide: any;
+  
+  }
+  
+
 export interface Comment {
   id: number,
   addedAt: any,
@@ -77,22 +131,22 @@ export class UpdateProduct {
 }
 export const ITEMS: Item[] = [
   {
-    name: 'TakAway  ',
+    name: 'TakAway delivery ',
     value: 'item_1',
     price: 1.99
   },
   {
-    name: 'Relay  ',
+    name: 'Relay delivery ',
     value: 'item_2',
     price: 2.99
   },
   {
-    name: 'Express  ',
+    name: 'Express delivery ',
     value: 'item_3',
     price: 3.99
   },
   {
-    name: 'Direct  ',
+    name: 'Direct  delivery',
     value: 'item_4',
     price: 4.99
   }

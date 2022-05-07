@@ -31,7 +31,7 @@
             <input type="number" min="0" max="10" class="form-control" [(ngModel)]="order.quantity" />
           </div>
           <div class="col-5 padding-0" *ngIf="!isProductSelected(order.product)">
-            <button class="btn btn-primary" (click)="addToCart(order)" [disabled]="order.quantity <= 0">
+            <button  class="btn btn-danger pull-right"  (click)="addToCart(order)" [disabled]="order.quantity <= 0">
               Buy it  Now !!
             </button>
           </div>

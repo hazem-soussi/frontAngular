@@ -3,11 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\admin",
-    "\\src\\app\\admin\\add-category",
     "\\src\\app\\ecommerce",
-    "\\src\\app\\service"
+    "\\src\\app\\ecommerce\\products",
+    "\\src\\app\\modal",
+    "\\src\\app\\profile",
+    "\\src\\app\\service",
+    "\\src\\assets",
+    "\\src\\environments"
   ],
-  "SelectedNode": "\\src\\app\\admin\\add-category\\add-category.component.ts",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }

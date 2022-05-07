@@ -8,6 +8,9 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog';
   templateUrl: './add-product.component.html',
   styleUrls: ['./add-product.component.css']
 })
+
+
+
 export class AddProductComponent implements OnInit {
   product: Product = {} as Product;
   progressBar = false;

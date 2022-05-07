@@ -10,6 +10,8 @@ import { CategoryService } from './service/category.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+
 export class AppComponent implements OnInit {
   user: User = {} as User;
   categories: Category[];

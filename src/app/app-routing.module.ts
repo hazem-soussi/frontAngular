@@ -7,15 +7,62 @@ import { CategoriesComponent } from './admin/categories/categories.component';
 import { SangleProductComponent } from './ecommerce/sangle-product/sangle-product.component';
 import { DisplayCategoryComponent } from './display-category/display-category.component';
 import { DisplayTagComponent } from './display-tag/display-tag.component';
+import { CreatevisiteComponent } from './admin/createvisite/createvisite.component';
+import { AideComponent } from './admin/aide/aide.component';
+import { AddReportComponent } from './admin/add-report/add-report.component';
+import { AgentComponent } from './admin/agent/agent.component';
+import { ReglementComponent } from './admin/reglement/reglement.component';
+import { CreateComponent } from './admin/create/create.component';
 
 
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+
+
   {
     path: 'dashboard',
     component: DashboardComponent,
   },
+
+
+  {
+    path: 'aide',
+    component:  AideComponent,
+  },
+
+
+  {
+    path: 'Report',
+    component:  AddReportComponent,
+  },
+
+
+  
+
+  {
+    path: 'CreateComponent',
+    component:    CreateComponent
+    ,
+  },
+  {
+    path: 'Reglement',
+    component:  ReglementComponent ,
+  },
+
+
+  {
+    path: 'Agent',
+    component:  AgentComponent,
+  },
+
+  {
+    path: 'CreatevisiteComponent',
+    component: CreatevisiteComponent,
+  },
+
+
+
   {
     path: 'sangle/product/:idProduct',
     component: SangleProductComponent

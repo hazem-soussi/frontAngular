@@ -14,7 +14,7 @@ export class CartService {
   addCartToUser(cart: Cart, idUser: number): Observable<Cart> {
     return this.http.post<Cart>(`http://localhost:8080/api/addCartToUser/${idUser}`, cart);
   }
-
+  
 
   deleteCart(id: number): Observable<Cart> {
     return this.http.delete<Cart>(`http://localhost:8080/api/deleteCart/${id}`);

@@ -23,7 +23,7 @@
       <div class="card-body">
         <button type="button" class="btn btn-danger" (click)="logout(user.id)">Logout</button>
         <button type="button" class="btn btn-warning" style="margin: 0 10px;"
-        (click)="updateProfile(user.id)">Update</button>
+        (click)="updateProfile()">Update</button>
         <button type="button" class="btn btn-info" (click)="addCategory(user.id)" *ngIf="user.admin">Add
           category</button>
         <button type="button" class="btn btn-success" (click)="addTag()" style="margin-left: 10px;"
@@ -62,7 +62,7 @@
                   <td>{{cart.price}}</td>
                   <td>{{cart.quantity}}</td>
                   <td><span class="material-icons" (click)="deleteCart(cart.id, user.id)"
-                      style="cursor: pointer; color: #e15f41;">delete_forever</span></td>
+                      style="cursor: pointer; color: #c04023;">delete_forever</span></td>
                 </tr>
               </tbody>
             </table>
